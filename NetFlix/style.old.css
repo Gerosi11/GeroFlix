@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body {
+    height: 100%; /* Garante que o degradê cubra toda a altura da página */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+}
+
+body {
+    background: linear-gradient(to bottom, black, red); /* Degradê do preto para o vermelho */
+    color: white;
+}
+
+
+.logo {
+    position: absolute;
+    top: 0; /* Posiciona no topo */
+    right: 0; /* Move para a extremidade direita */
+    width: 150px; /* Ajuste o tamanho da logo */
+    height: auto;
+}
+
+.avatar {
+    position: absolute;
+    top: 0; /* Posiciona no topo */
+    left: 0; /* Move para a extremidade esquerda */
+    width: 100px; /* Ajuste o tamanho do avatar */
+    height: auto;
+    border-radius: 90%; /* Exemplo de borda arredondada */
+}
+
+.video {
+    display: block;
+    margin: 100px auto; /* Centraliza o vídeo horizontalmente e adiciona margem superior */
+    max-width: 80%;
+    height: auto;
+}
+
+img{
+    height: 100px;
+    display: inline-block; /* Exibe as imagens lado a lado */
+    justify-content:flex-start; /* Centraliza as imagens horizontalmente */
+    gap: 20px; /* Adiciona espaço entre as imagens */
+    margin-top: 20px; /* Adiciona margem acima do contêiner */
+    
+}
